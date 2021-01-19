@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input,
+select {
+    outline: transparent;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Futura PT Book";
+    font-weight: 400;
+    font-style: normal;
+    color: $dark_gray;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1492px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    color: $dark_gray;
+    font-family: "Futura PT";
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.container-fluid {
+    max-width: 1920px;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    z-index: -1;
+}
